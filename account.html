@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html>
+<head>
+		<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-120053212-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-120053212-1');
+</script>
+	<title>FoodAsia</title>
+	<meta name="viewport" content="width=device-width, height=device-height, initial-scale=1, maximum-scale=1, user-scalable=no">
+	<link rel="stylesheet" type="text/css" href="dist/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="dist/css/pace.css">
+	<link rel="stylesheet" type="text/css" href="dist/css/fa.css">
+	<link rel="stylesheet" type="text/css" href="dist/fonts/stylesheet.css">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.12/css/all.css" integrity="sha384-G0fIWCsCzJIMAVNQPfjH08cyYaUtMwjJwqiRKxxE/rx96Uroj1BtIQ6MLJuheaO9" crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="dist/css/datatables.min.css">
+	<link rel="stylesheet" type="text/css" href="dist/css/responsive.bootstrap4.min.css">
+	<link rel="icon" type="image/png" href="assets/favico.png">
+</head>
+<body>
+<!-- Load Facebook SDK for JavaScript -->
+<div id="fb-root"></div>
+<script>(function(d, s, id) {var js, fjs = d.getElementsByTagName(s)[0];if (d.getElementById(id)) return;js = d.createElement(s); js.id = id;js.src = 'https://connect.facebook.net/en_US/sdk/xfbml.customerchat.js#xfbml=1&version=v2.12&autoLogAppEvents=1';fjs.parentNode.insertBefore(js, fjs);}(document, 'script', 'facebook-jssdk'));</script>
+<!-- Your customer chat code -->
+<div class="fb-customerchat" attribution="setup_tool" page_id="2069663356654931" theme_color="#eb1c24"></div>
+<div class="main">
+	<header class="sticky-top fa-nav-bg">
+		<img src="assets/asset1.png" class="img img-fluid" style="position: absolute; top:0; z-index: -1;">
+		<div class="container-fluid row px-0 mx-0 magic">
+			<div class="col-md-3 col-sm-hidden col-xs-hidden"></div>
+			<div class="col-md-6" align="center">
+				<img src="assets/fa-header.png" class="img img-fluid" width="80%" height="auto">
+			</div>
+			<div class="col-md-3 row align-content-end m-0 mobile-none gothic">
+				<div class="row mx-0 w-100">
+					<div class="col-md-12 col-sm-12 col-xs-12" align="end">
+						<span>
+							<span id="loginPlaceholder">
+								<button class="btn btn-link fa-red" data-toggle="modal" data-target="#loginModal" id="loginBtn"><i class="fas fa-user"></i> Login</button>
+							</span> |
+							<a href="#" class="fa-red"><i class="fas fa-shopping-cart"></i> (<span id="cartsizeD">0</span>)</a>
+						</span>
+					</div>
+				</div>
+				<div class="row mx-0 w-100">
+					<div class="col-md-12 col-sm-12 col-xs-12">
+						<div class="input-group mb-3 fa-red">
+							<input type="text" class="form-control fa-red-br rounded-0 transparent-bg" placeholder="Search FoodAsia" aria-label="Search FoodAsia" aria-describedby="basic-addon2">
+							<div class="input-group-append">
+								<button class="btn fa-red-bg text-light rounded-0" type="button"><i class="fas fa-search"></i></button>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<nav class="navbar navbar-expand-lg navbar-dark fill">
+			<span class="navbar-brand mobile-block py-0 w-75">
+				<div class="input-group fa-red">
+					<input type="text" class="form-control fa-red-br rounded-0" placeholder="Search FoodAsia" aria-label="Search FoodAsia" aria-describedby="basic-addon2">
+					<div class="input-group-append">
+						<button class="btn fa-red-bg text-light" type="button"><i class="fas fa-search"></i></button>
+					</div>
+				</div>
+			</span>
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExample05" aria-controls="navbarsExample05" aria-expanded="false" aria-label="Toggle navigation">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+
+			<div class="collapse navbar-collapse " id="navbarsExample05">
+				<ul class="navbar-nav nav-fill w-100 ">
+					<li class="nav-item">
+						<a class="nav-link" href="index.html">HOME<span class="sr-only">(current)</span></span></a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link active" href="shop.html">E-STORE</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="about-us.html">ABOUT US</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="our-brands.html">OUR BRANDS</a>
+					</li>
+					<!-- =======Franchise Dropdown --> 
+					<li class="nav-item">
+						<div class="dropdown" style="background-color: #383838; "> 
+						  <a class="nav-link dropdown-toggle" href="franchise-test.html" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">	FRANCHISE
+						  </a>
+						  <div class="dropdown-menu" aria-labelledby="dropdownMenuButton" >
+						  	<a class="nav-sub-link dropdown-item" href="franchise.html">Franchise Inquiry</a>
+						    <a class="nav-sub-link dropdown-item" href="local.html">Local</a>
+						    <a class="nav-sub-link dropdown-item" href="international.html">International</a>  
+						  </div>
+						</div>
+					</li>
+					<!-- ======= -->
+					<li class="nav-item">
+						<a class="nav-link" href="news.html">NEWS</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="careers.html">CAREERS</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="contact-us.html">CONTACT US</a>
+					</li>
+					<li class="nav-item mobile-block gothic">
+						<span id="loginPlaceholder2"><a href="#" class="fa-red" data-toggle="modal" data-target="#loginModal"><i class="fas fa-user"></i> Login</a></span>
+					</li>
+					<li class="nav-item mobile-block gothic">
+						<a href="#" class="fa-red"><i class="fas fa-shopping-cart"></i> (<span id="cartsize">0</span>)</a>
+					</li>
+				</ul>
+			</div>
+		</nav>
+	</header>
+	
+	<div class="container d-flex align-content-center my-1 gothic text-light">
+		<div class="col container px-0" align="center" id="historyDiv">
+			<h3 class="fa-red">Order History</h3>
+			<div>
+				<h5 style="display: inline-block;">Customer Code : &nbsp;&nbsp;</h5>
+				<h5 id="customer_code" style="display: inline-block;"></h5>
+			</div>
+			<table class="table table-striped table-sm w-100 table-dark" id="historyParent">
+	    		<thead class="fa-red">
+	    			<th>Order ID</th>
+	    			<th>Amount</th>
+	    			<th>Date</th>
+	    			<th>Order Status</th>
+	    			<th>Delivery Status</th>
+	    			<th>Checkout Type</th>
+	    		</thead>
+	    		<tbody id="history-Table"></tbody>
+	    	</table>
+		</div>
+		<div class="col container d-none" align="center" id="orderDiv">
+			<h3 class="fa-red">Order <span id="orID"></span> Infomation </h3>
+			<table class="table table-striped table-sm table-dark" id="orderParent">
+	    		<thead class="fa-red">
+	    			<th>Name</th>
+	    			<th>Price</th>
+	    			<th>Qty</th>
+	    			<th>Amount</th>
+	    			<th>Part-No.</th>
+	    		</thead>
+	    		<tbody id="order-Table"></tbody>
+	    	</table> 
+	    	<a href="account.html" class="btn fa-red-bg text-light rounded-0">Back</a>
+	    	<div id="others_fee" style="text-align: left; padding-left: 15px;"><small>Delivery Charge : <strong><label id="delivery_fee"></label></strong></small></div>
+		</div>
+		
+	</div>
+
+	<!-- Modal -->
+	<div class="modal fade" id="loginModal" tabindex="-1" role="dialog" aria-labelledby="loginLabel" aria-hidden="true">
+		<div class="modal-dialog modal-dialog-centered" role="document">
+			<div class="modal-content fa-modal-br">
+				<div class="modal-header border-bottom-0">
+					<!-- <h5 class="modal-title" id="exampleModalLabel">Modal title</h5> -->
+					<button type="button" class="close fa-red" data-dismiss="modal" aria-label="Close">
+						<span aria-hidden="true">&times;</span>
+					</button>
+				</div>
+				<div class="modal-body px-5" align="center" style="margin-bottom: 40px">
+					<h2 class="fa-red">HEY THERE PAL</h2>
+					<p>Let's get started.</p>
+					<form>
+						<div class="form-group">
+							<div class="pt-1 mb-3" id="userDiv">
+								<input class="form-control rounded-0" type="text" id="username" name="username" placeholder="Email Address">
+								<small class="text-danger" id="userError"></small>	
+							</div>
+							<div class="input-group mb-3">
+							  	<input type="password" class="form-control rounded-0 border-right-0" id="password" name="pass" placeholder="Password">
+							  		<div class="input-group-append">
+							    		<button class="btn btn-link fa-red rounded-0 border-left-0 border-default" type="button">Forgot?</button>
+							  		</div>
+							</div>
+						</div>
+					</form>
+					<button class="btn btn-lg btn-block rounded-0 fa-red-bg text-light" id="signin">LOGIN</button>
+					<span>Don't have an account? <a href="#" class="fa-red">Signup here.</a></span>
+				</div>
+			</div>
+		</div>
+	</div>
+
+
+</div>
+	<footer class="footer">
+		<div class="container-fluid mx-auto" align="center">
+			<span class="fa-red">&copy;FoodAsia Corporation</span>
+		</div>
+	</footer>
+ 
+<script type="text/javascript" src="dist/js/jquery-3.3.1.min.js"></script> 
+<script type="text/javascript" src="dist/js/popper.min.js"></script>
+<script type="text/javascript" src="dist/js/bootstrap.min.js"></script>
+<script type="text/javascript" src="dist/js/functions.js"></script>
+<script type="text/javascript" src="dist/js/fa.js"></script>
+<script type="text/javascript" src="dist/js/pace.js"></script>
+<script type="text/javascript" src="dist/js/bootbox.min.js"></script>
+<script type="text/javascript" src="dist/js/bootstrap-notify.js"></script>
+<script type="text/javascript" src="dist/js/account.js"></script>
+<script type="text/javascript" src="dist/js/datatables.min.js"></script>
+<script type="text/javascript" src="dist/js/responsive.bootstrap4.min.js"></script>
+</body>
+</html>

@@ -1,0 +1,11 @@
+RewriteEngine on
+ErrorDocument 404 http://localhost:8080/foodasia/404page.html
+RewriteCond %{HTTP_HOST} ^foodasia\.group$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.foodasia\.group$
+RewriteRule ^/?$ "http\:\/\/foodasia\-group\.com" [R=301,L]
+RewriteCond %{HTTP_HOST} ^foodasiagrp\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.foodasiagrp\.com$
+RewriteRule ^/?$ "http\:\/\/foodasia\-group\.com" [R=301,L]
+RewriteCond %{HTTP_HOST} ^foodasia\.com\.ph$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.foodasia\.com\.ph$
+RewriteRule ^(.*)$ "http\:\/\/foodasia\-group\.com\/$1" [R=301,L]

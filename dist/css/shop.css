@@ -1,0 +1,69 @@
+.big-border{
+	border: 3px solid #eb1c24;
+}
+.cart-container{
+	height: 400px;
+    max-height: 90%;
+}
+.cart-head{
+	width: 100%;
+	text-align: center;
+}
+.table > tbody > tr > td {
+     vertical-align: middle;
+}
+.cart-table{
+	/*height: 400px;*/
+	min-height: 400px;
+    /*max-height: 50%;
+	overflow-y: scroll;*/
+}
+.fa-btn{
+	background-color: transparent;
+}
+.fa-btn:hover{
+	background-color: #eb1c24;
+	color: #fefefe!important;
+}
+.fa-btn:active:focus{
+	background-color: #eb1c24;
+	color: #fefefe!important;
+}
+/*.style-3::-webkit-scrollbar-track
+{
+	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+	background-color: #383838;
+}
+
+.style-3::-webkit-scrollbar
+{
+	width: 6px;
+	background-color: #383838;
+}
+
+.style-3::-webkit-scrollbar-thumb
+{
+	background-color: #fefefe;
+}
+.style-3::-webkit-scrollbar-corner 
+{ 
+	background-color: #646464;
+}*/
+.fa-scroll::-webkit-scrollbar { width: 8px; height: 3px;}
+/*::-webkit-scrollbar-button {  background-color: #2d2d2d; }*/
+.fa-scroll::-webkit-scrollbar-track {  background-color: #646464;}
+.fa-scroll::-webkit-scrollbar-track-piece { background-color: #666;}
+.fa-scroll::-webkit-scrollbar-thumb { height: 50px; background-color: #eb1c24;}
+.fa-scroll::-webkit-scrollbar-corner { background-color: #646464;}}
+/*::-webkit-resizer { background-color: #2d2d2d;}*/
+
+#sidemenu.affix-top, #sidemenu.affix {
+  position: static;
+}
+#sidemenu.affix-bottom {
+  position: relative;
+}
+.pr-sm-img{
+	height: 50px;
+	width: auto;
+}

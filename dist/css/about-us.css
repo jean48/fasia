@@ -1,0 +1,459 @@
+/* Header Parallax Element Style*/ 
+.paral {
+min-height: 500px;
+background-attachment: fixed;
+background-size: cover;
+background-position: 50% 50%;
+}
+
+/* Image for Parallax Section */ 
+.paralsec {
+	background-image: url("../../assets/ABOUT-FOOD-ASIA.jpg");
+}
+ 
+.paralsec1 {
+background-image: url("../../assets/OUR-MAJOR-BRANDS-OVERLAY.jpg");}
+ 
+.paralsec2 {
+background-image: url("../../assets/WE-ARE-A-COMPANY.jpg");
+}
+
+.paralsec3 {
+background-image: url("../../assets/FOOD-MANUFACTURING.jpg");
+}
+
+.paralsec4 {
+background-image: url("../../assets/FOOD-SERVICE.jpg");
+}
+
+.paralsec5 {
+background-image: url("../../assets/SAY-HELLO.jpg");
+}
+
+/*.paralsec6 {
+background-image: url("../../assets/franchise-bg.JPG");
+}
+*/
+.paralsec6 {
+background-image: url("../../assets/foodasia_franchise-inquiry_02.jpg");
+}
+
+
+/* Add more images for more sections */
+
+/* Remove Bottom Margin from Jumbotron */
+.jumbotron{margin-bottom: 0;}
+
+/* Footer */
+.wn-footer {
+padding: 2.5rem 0;
+text-align: center;
+color: white;
+background-color: #607D8B;
+border-top: .05rem solid #e5e5e5;
+}
+ 
+.wn-footer a {
+color: yellow;
+}
+.scrolling{
+	min-height: 500px;
+}
+.caption{
+	font-size: 1.5rem;
+	color: #fff;
+
+}
+.angle--clr-dark {
+  color: #fff;
+  background-color: #383838;
+  text-align: center;
+  padding: 10% 0;
+}
+.line{
+	height: 10px;
+	max-width: 500px;
+}
+hr {
+    display: block;
+    height: 5px;
+    border: 0;
+    border-top: 3px solid #eb1c24;
+    margin: 0;
+    padding: 0;
+}
+.cd-top {
+  display: inline-block;
+  height: 40px;
+  width: 40px;
+  position: fixed;
+  bottom: 40px;
+  left: 10px;
+  z-index: 99;
+  -webkit-box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);
+          box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);
+  /* image replacement properties */
+  overflow: hidden;
+  text-indent: 100%;
+  white-space: nowrap;
+  background: #eb1c24 url(../../assets/cd-top-arrow.svg) no-repeat center 50%;
+  visibility: hidden;
+  opacity: 0;
+  -webkit-transition: opacity .3s 0s, visibility 0s .3s, background-color .3s 0s;
+  transition: opacity .3s 0s, visibility 0s .3s, background-color .3s 0s;
+}
+
+.cd-top.cd-top--show,
+.cd-top.cd-top--fade-out,
+.cd-top:hover {
+  -webkit-transition: opacity .3s 0s, visibility 0s 0s, background-color .3s 0s;
+  transition: opacity .3s 0s, visibility 0s 0s, background-color .3s 0s;
+}
+
+.cd-top.cd-top--show {
+  /* the button becomes visible */
+  visibility: visible;
+  opacity: 1;
+}
+
+.cd-top.cd-top--fade-out {
+  /* if the user keeps scrolling down, the button is out of focus and becomes less visible */
+  opacity: .5;
+}
+
+.cd-top:hover {
+  background-color: #eb1c24;
+  opacity: 1;
+}
+
+@media only screen and (min-width: 768px) {
+  .cd-top {
+    left: 20px;
+    bottom: 20px;
+  }
+}
+
+@media only screen and (min-width: 1024px) {
+  .cd-top {
+    height: 60px;
+    width: 60px;
+    left: 30px;
+    bottom: 30px;
+  }
+}
+
+@media screen and (min-width: 992px){
+  .left-border{
+    border-left: 1px solid white;
+    padding-left: 25px;
+  }
+  .right-border{
+    border-right: 1px solid white;
+    padding-right: 55px;
+  }
+}
+
+
+/*--- for select ---*/
+
+select.inverse-red > option {
+  background-color: #383838;
+}
+
+select.inverse-red > option:focus {
+  background-color: red;
+}
+
+#form-vector{
+  background: url("../../assets/form-vector-bl_02.png") no-repeat bottom left;
+  background-size: 40%;
+  max-width: 100%;
+}
+
+#form-vector input, #form-vector select, #form-vector textarea{
+  background-color: #292929 !important;
+}  
+
+.vector-globe-tr-br{
+  background: url("../../assets/form-vector-bl_02.png") no-repeat bottom left, 
+  url("../../assets/form-vector-tr_03.png") no-repeat top right ;
+  background-size: 40%, 30%;
+}
+
+#fran-cont{
+  background: url("../../assets/contact-vector_07.png") bottom right no-repeat; 
+  background-size: 50%; 
+}
+
+/*-- carousel overlay--*/
+
+.overlay{
+  position: absolute; 
+  z-index: 1; 
+  display: flex; 
+  flex-direction: column;  
+  align-items: center; 
+  justify-content: center; 
+  height: 100%;
+}
+.overlay:after {
+  content: 'hahaha';
+  background: #353535;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  opacity: .75;
+}
+
+.overlay-text{
+  z-index: 2;
+}
+
+
+#carousellocal .carousel-control-prev,
+#carousellocal .carousel-control-next, 
+#carouselinternational .carousel-control-prev,
+#carouselinternational .carousel-control-next{
+  z-index: 3;
+}
+
+
+@media (max-width: 991px){
+  .text-md{
+    font-size: 60%;   
+  }
+}
+
+
+/*custom modal for local and intnl brands */
+.cust-modal .overlay-left{
+  position: absolute;
+  top: 10%;
+  left: 2.5%;
+  right: auto;
+  width: 30%;
+  color: #fff;
+  font-size: 1.15rem;
+  text-overflow: ellipsis;
+}
+
+.cust-modal .modal-dialog{
+  max-width:100%; 
+  margin-top: 0; 
+  border: 0;
+}
+.cust-modal .modal-content{
+  background: #393939;
+ /* min-height: 100vh;*/
+}
+.cust-modal .modal-header{
+  border-bottom: 0;
+}
+
+@media (max-width: 991px){
+  .text-md{
+    font-size: 60%;   
+  }
+}
+
+
+@media (max-width: 1279px){
+  .cust-modal .mobile-dnone{
+    display: none;
+  }
+  .cust-modal .mobile-dblock{
+    display: block !important;
+  }
+}
+
+
+
+
+@media (min-width: 1280px)  {
+
+  .cust-modal .mobile-dnone{
+    display: block;
+  }
+  .cust-modal .mobile-dblock{
+    display: none !important;
+  }
+
+  .cust-modal .overlay-left { 
+    top: 5%;
+    font-size: 99%;
+    width: 34%;
+    
+  }
+  .cust-modal .actions {
+    font-size: 120%;
+    width:  70%;
+  }
+}
+@media (min-width: 1440px)  {
+
+  .cust-modal .overlay-left { 
+    top: 5%;
+    font-size: 110%;
+    width: 34%;
+    padding-left: 15px;
+  }
+  .cust-modal .actions {
+    font-size: 120%;
+    width:  70%;
+    margin-top: 10%;
+  }
+}
+
+@media(max-width: 421px){
+  .cust-modal .mobile-dblock .actions>a{
+    display: block;
+  }
+  .cust-modal .mobile-dblock .actions>a:nth-child(odd){
+     margin-bottom: 10px; 
+     
+  }
+}
+
+
+/* for local and international franchising hover state*/
+.custom-link::before, .custom-link::after{
+  content: '';
+  position: absolute; 
+  width: 0%;
+  height:2px;
+  background: #9c4343;
+}
+
+.custom-link::before{
+  left: 25%;
+  top: 0;
+  transition-duration: 0.4s;
+}
+
+.custom-link::after{
+  right:25%;
+  bottom: 0;
+  width: 0%;
+  transition-duration: 0.4s;
+}
+
+.custom-link > div::before, .custom-link > div::after{
+  content:"";
+  width:2px;
+  height:0%;
+  position: absolute;
+  transition: all 0.2s linear;
+  background: #9c4343;
+}
+
+.custom-link > div::before{
+  
+  left: 25%;
+  top: 0;
+  transition-duration: 0.4s;
+}
+
+.custom-link > div::after{
+  
+  right:25%;
+  bottom: 0;
+  transition-duration: 0.4s;
+}
+
+
+.custom-link:hover::before, .custom-link:hover::after{
+  width:50%;
+}
+.custom-link:hover div::before, .custom-link:hover div::after{
+  height: 100%;
+} 
+
+
+.custom-link a:focus {
+  outline: none;
+}
+.custom-link img:focus{
+  outline: none;
+}
+.custom-link a:active{
+  outline: none;
+}
+
+
+/*-----about us carousel-------*/
+
+.content{
+  position: absolute;
+  top: 0px;
+  /* margin-right: 5%; */
+  padding-top: 10%;
+  padding-bottom: 10%;
+  padding-right: 8%;
+  padding-left: 11%;
+  height: 100%;
+}
+
+
+@media (max-width: 636px) {
+  
+  #about .carousel-item .mobile-block{
+    display: block;
+  }
+  #about .carousel-item .mobile-none{
+    display: none !important;
+  }
+  
+}
+
+@media (min-width: 637px) {
+  
+
+  #about .carousel-item .mobile-block{
+    display: none !important;
+  }
+
+  #about .carousel-item .mobile-none{
+    display: block;
+  }
+}
+
+@media(max-width: 400px){
+  #about .bigtext-5{
+    font-size: .9rem
+  }
+  
+  #about .bigtext-2{
+    font-size: 2rem;
+  }
+
+}
+
+
+
+@media (max-width: 355px) {
+  #about .carousel-item img.mobile-block{
+    width: 130% !important;
+  }
+  .content{
+    padding-right: 5% !important;
+
+  }
+
+}
+@media (max-width: 320px) {
+  #about .carousel-item img.mobile-block{
+    width: 138% !important;
+  }
+  .content{
+    top:10px;
+    padding-left: 15%;
+    padding-right: 0%;
+  }
+}
+
+
+.entities{
+  font-size: 72%;
+}

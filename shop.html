@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html>
+<head>
+		<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-120053212-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  
+  gtag('config', 'UA-120053212-1');
+</script>
+	<title>Shop | FoodAsia Group</title> 
+	<meta name="viewport" content="width=device-width, height=device-height, initial-scale=1, maximum-scale=1, user-scalable=no">
+	<link rel="stylesheet" type="text/css" href="dist/css/bootstrap.css">
+	<link rel="stylesheet" type="text/css" href="dist/css/pace.css">
+	<link rel="stylesheet" type="text/css" href="dist/css/fa.css">
+	<link rel="stylesheet" type="text/css" href="dist/css/shop.css">
+	<link rel="stylesheet" type="text/css" href="dist/fonts/stylesheet.css">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.12/css/all.css" integrity="sha384-G0fIWCsCzJIMAVNQPfjH08cyYaUtMwjJwqiRKxxE/rx96Uroj1BtIQ6MLJuheaO9" crossorigin="anonymous">
+	<link rel="icon" type="image/png" href="assets/favico.png">
+	<style>
+		::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+		    color: #dedede!important;
+		    opacity: 1; /* Firefox */
+		}
+
+		:-ms-input-placeholder { /* Internet Explorer 10-11 */
+		    color: #dedede!important;
+		}
+
+		::-ms-input-placeholder { /* Microsoft Edge */
+		    color: #dedede!important;
+		}
+
+	</style>
+
+</head>
+<body>
+<!-- Load Facebook SDK for JavaScript -->
+<div id="fb-root"></div>
+<script>(function(d, s, id) {var js, fjs = d.getElementsByTagName(s)[0];if (d.getElementById(id)) return;js = d.createElement(s); js.id = id;js.src = 'https://connect.facebook.net/en_US/sdk/xfbml.customerchat.js#xfbml=1&version=v2.12&autoLogAppEvents=1';fjs.parentNode.insertBefore(js, fjs);}(document, 'script', 'facebook-jssdk'));</script>
+<!-- Your customer chat code -->
+<div class="fb-customerchat" attribution="setup_tool" page_id="2069663356654931" theme_color="#eb1c24"></div>
+<header class="sticky-top fa-nav-bg">
+		<img src="assets/asset1.png" class="img img-fluid" style="position: absolute; top:0; z-index: -1;">
+		<div class="container-fluid row px-0 mx-0 magic">
+			<div class="col-md-3 col-sm-hidden col-xs-hidden"></div>
+			<div class="col-md-6" align="center" style=" ">
+				<img src="assets/fa-header.png" class="img img-fluid" width="80%" height="auto">
+			</div>
+			<div class="col-md-3 row align-content-end m-0 mobile-none gothic">
+				<div class="row mx-0 w-100" style="  ">
+					<div class="col-md-12 col-sm-12 col-xs-12" align="end">
+						<span>
+							<span id="loginPlaceholder">
+								<button class="btn btn-link btn-lg text-light" data-toggle="modal" data-target="#loginModal" id="loginBtn">
+									<i class="fas fa-user"></i> Login
+								</button>
+							</span>
+							<button class="btn btn-link btn-lg nobreak text-light"  data-toggle="modal" data-target="#cartModal"><i class="fas fa-shopping-cart"></i> (<span id="cartsizeD">0</span>)</button>
+						</span>
+					</div>
+				</div>
+				<div class="row mx-0 w-100">
+					<div class="col-md-12 col-sm-12 col-xs-12">
+						<div class="input-group mb-3 fa-red">
+							<input id="txt_search" type="text" class="form-control fa-red-br rounded-0 transparent-bg" placeholder="Search FoodAsia" aria-label="Search FoodAsia" aria-describedby="basic-addon2">
+							<div class="input-group-append">
+								<button id="btn_search" class="btn fa-red-bg text-light rounded-0" type="button"><i class="fas fa-search"></i></button>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<nav class="navbar navbar-expand-lg navbar-dark fill">
+			<span class="navbar-brand mobile-block py-0 w-75">
+				<div class="input-group fa-red">
+					<input id="txt_search" type="text" class="form-control fa-red-br rounded-0 transparent-bg" placeholder="Search FoodAsia" aria-label="Search FoodAsia" aria-describedby="basic-addon2">
+					<div class="input-group-append">
+						<button id="btn_search" class="btn fa-red-bg text-light" type="button"><i class="fas fa-search"></i></button>
+					</div>
+				</div>
+			</span>
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExample05" aria-controls="navbarsExample05" aria-expanded="false" aria-label="Toggle navigation">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+
+			<div class="collapse navbar-collapse " id="navbarsExample05">
+				<ul class="navbar-nav nav-fill w-100 ">
+					<li class="nav-item">
+						<a class="nav-link" href="index.html">HOME<span class="sr-only">(current)</span></span></a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link active" href="shop.html">E-STORE</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="about-us.html">ABOUT US</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="our-brands.html">OUR BRANDS</a>
+					</li>
+					<!-- =======Franchise Dropdown --> 
+					<li class="nav-item">
+						<div class="dropdown" style="background-color: #383838; "> 
+							<a class="nav-link dropdown-toggle" href="franchise-test.html" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">	FRANCHISE
+								&nbsp;<i class="fa fa-angle-down fa-xs" style="font-weight: 600;"></i>
+							</a>
+							<div class="dropdown-menu" aria-labelledby="dropdownMenuButton" >
+								
+								<a class="nav-sub-link dropdown-item" href="local.html">Local</a>
+								<a class="nav-sub-link dropdown-item" href="international.html">International</a>  
+							</div>
+						</div>
+					</li>
+					<!-- ======= -->
+					<li class="nav-item">
+						<a class="nav-link" href="news.html">NEWS</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="careers.html">CAREERS</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="contact-us.html">CONTACT US</a>
+					</li>
+					<li class="nav-item mobile-block gothic">
+						<span id="loginPlaceholder2"><a href="#" class="text-light" data-toggle="modal" data-target="#loginModal"><i class="fas fa-user"></i> Login</a></span>
+					</li>
+					<li class="nav-item mobile-block gothic">
+						<a href="#" class="text-light"><i class="fas fa-shopping-cart"></i> (<span id="cartsize">0</span>)</a>
+					</li>
+				</ul>
+			</div>
+		</nav>
+	</header>
+
+
+<div class="container-fluid row mx-0 px-0 gothic d-flex justify-content-end w-100">
+
+	<!-- <div class="container col-xl-4 col-lg-4 col-md-4 my-1 fa-cart cl gothic" id="sidemenu" style="font-size: .8rem">
+			<div class="card big-border rounded-0 fa-dark-bg">
+			  	<div class="card-header text-light fa-red-bg text-center rounded-0 gm">
+			    	My Cart <i class="fas fa-shopping-cart"></i>
+			  	</div>
+			  	<div class="card-body px-0">
+			    	<p class="lead pl-3 text-light">Recently Added Item(s)</p>
+			    	<h3 class="text-center d-none text-light" id="noItem"><i class="">You have no item in your cart</i></h3>
+			    	<table class="table table-responsive table-dark table-striped table-sm cart-table fa-scroll" id="cartParent">
+			    		<thead class="fa-red">
+			    			<th></th>
+			    			<th>Product</th>
+			    			<th>Price</th>
+			    			<th style="min-width: 90px;">Qty</th>
+			    			<th>Total</th>
+			    		</thead>
+			    		<tbody id="cart-Table"></tbody>
+			    	</table>
+			    	<div class="container d-flex justify-content-end">
+			    		<p class="text-light h5">TOTAL: Php <span id="ttl"></span></p>
+			    	</div>
+			  	</div>
+			  	<div class="card-footer p-1 d-flex justify-content-center" align="center">
+			   	 	<div class="row mx-0 px-0 btn-group" role="group" >
+			   	 		<button class="btn btn-danger fa-btn fa-red fa-red fa-red-br rounded-0 " id="clearCart">Clear</button>
+			   	 		<button class="btn btn-danger fa-btn fa-red fa-red fa-red-br rounded-0 ">Update</button>
+			   	 		<button class="btn text-light fa-red-bg rounded-0 fload-md-center" id="checkOut">Check Out</button>
+			   	 	</div>
+			  	</div>
+			</div>
+	</div> -->
+
+	<div class="col-md-12 container mx-0 products my-1 big-border fa-dark-bg">
+		<div class="product-div row mx-0 px-0 d-flex justify-content-center" id="productsDiv">
+			
+		</div> <!-- products -->
+	</div>	<!-- container -->
+
+</div>
+
+<!-- Modal -->
+	<div class="modal fade gothic" id="productModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+		<div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+			<div class="modal-content fa-modal-br">
+				<div class="modal-header border-bottom-0">
+					<!-- <h5 class="modal-title" id="exampleModalLabel">Modal title</h5> -->
+					<button type="button" class="close fa-red" data-dismiss="modal" aria-label="Close">
+						<span aria-hidden="true">&times;</span>
+					</button>
+				</div>
+				<div class="modal-body" align="center" style="margin-bottom: 40px">
+					<div class="row m-0">
+						<div class="col-md-6" align="center">
+							<img id="productModal_img"  class="img img-product-md" width="350" height="350" style=" width: 350px!important; height: 350px!important;">
+							<p id="desc">
+							
+							</p>
+						</div> 
+						<div class="col-md-6" align="left">
+							<p class="md-prod-name" id="productName">Product Name</p>
+							<p class="md-prod-price fa-red">PHP <span id="pdPrice"></span></p>
+							<div class="form-group">
+								<p class="gothic" style="font-size: 1.25em!important">Unit of Measurement: <span id="unit">packs</span></p>	
+							</div>
+							<div class="form-group gothic">
+								<label class="" for="qty">Quantity:</label>
+								<input type="text" name="qty" class="form-control form-control-lg rounded-0" id="qty" value="1">
+							</div>
+							<input type="text" hidden="true" name="partNo" id="partNo">
+							<input type="text" hidden="true" name="pid" id="pid">
+							<button class="btn btn-block fa-red-bg text-light rounded-0 gm" id="atc">Add to Cart <i class="fas fa-shopping-cart"></i></button>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="modal fade gothic" id="cartModal" tabindex="-1" role="dialog" aria-labelledby="cartModalLabel" aria-hidden="true">
+		<div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+			<div class="modal-content fa-modal-br">
+				<div class="modal-header border-bottom-0 fa-red-bg text-light">
+					<h5 class="modal-title" id="exampleModalLabel"><i class="fas fa-shopping-cart"></i> My Cart</h5>
+					<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+						<span aria-hidden="true">&times;</span>
+					</button>
+				</div>
+				<div class="modal-body" align="center" style="margin-bottom: 40px">
+					<div class="container" id="cartCtModal">
+					  	<div class="card-body px-0">
+					    	<p class="lead pl-3 fa-red">Recently Added Item(s)</p>
+					    	<h3 class="text-center d-none text-light" id="noItem"><i class="">You have no item in your cart</i></h3>
+					    	<table class="table table-responsive table-dark table-striped cart-table fa-scroll" id="cartParent">
+					    		<thead class="fa-red">
+					    			<th></th>
+					    			<th>Product</th>
+					    			<th>Price</th>
+					    			<th style="min-width: 90px;">Qty</th>
+					    			<th>Total</th>
+					    		</thead>
+					    		<tbody id="cart-TableMD"></tbody>
+					    	</table>
+					    	<div class="container d-flex justify-content-end">
+					    		<p class="fa-red h5">TOTAL: Php <span id="ttl"></span></p>
+					    	</div>
+					  	</div>
+					  	<div class="card-footer p-1 d-flex justify-content-center">
+					   	 	<div class="row mx-0 px-0" >
+					   	 		<button class="btn btn-danger fa-btn fa-red fa-red fa-red-br rounded-0  mx-2" id="clearCart">Clear Cart</button>
+					   	 		<a href="order-summary.html" class="btn text-light fa-red-bg rounded-0 fload-md-center mx-2">Proceed to Check Out</a>
+					   	 		<button class="btn btn-outline-dark rounded-0 mx-2" data-dismiss="modal" aria-label="Close">Continue Shopping</button>
+					   	 	</div>
+					  	</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+<footer class="footer">
+	<div class="container" align="center">
+		<span class="fa-red">&copy; FoodAsia Corporation</span>
+	</div>
+</footer>
+
+
+
+<script type="text/javascript" src="dist/js/jquery-3.3.1.min.js"></script>
+<script type="text/javascript" src="dist/js/popper.min.js"></script>
+<script type="text/javascript" src="dist/js/bootstrap.min.js"></script>
+<script type="text/javascript" src="dist/js/fa.js"></script>
+<script type="text/javascript" src="dist/js/functions.js"></script>
+<script type="text/javascript" src="dist/js/store.js"></script> 
+<script type="text/javascript" src="dist/js/showProducts.js"></script> 
+<script type="text/javascript" src="dist/js/pace.js"></script>
+<script type="text/javascript" src="dist/js/jquery.md5.js"></script>
+<script type="text/javascript" src="dist/js/bootbox.min.js"></script>
+<script type="text/javascript" src="dist/js/bootstrap-notify.js"></script>
+<script src="cart/js/main.js"></script>
+
+</body>
+</body>
+</html>

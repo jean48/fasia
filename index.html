@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html>
+<head>
+		<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-120053212-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-120053212-1');
+</script>
+	<title>FoodAsia Group</title>
+	<meta name="viewport" content="width=device-width, height=device-height, initial-scale=1, maximum-scale=1, user-scalable=no">
+	<link rel="stylesheet" type="text/css" href="dist/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="dist/css/pace.css">
+	<link rel="stylesheet" type="text/css" href="dist/css/fa.css">
+	<link rel="stylesheet" type="text/css" href="dist/fonts/stylesheet.css">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.12/css/all.css" integrity="sha384-G0fIWCsCzJIMAVNQPfjH08cyYaUtMwjJwqiRKxxE/rx96Uroj1BtIQ6MLJuheaO9" crossorigin="anonymous">
+	<link rel="icon" type="image/png" href="assets/favico.png">
+	<style>
+		body{
+			background-color: #383838;
+		}
+		::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+		    color: #dedede!important;
+		    opacity: 1; /* Firefox */
+		}
+
+		:-ms-input-placeholder { /* Internet Explorer 10-11 */
+		    color: #dedede!important;
+		}
+
+		::-ms-input-placeholder { /* Microsoft Edge */
+		    color: #dedede!important;
+		}
+	</style>
+</head>
+<body>
+<!-- Load Facebook SDK for JavaScript -->
+<div id="fb-root"></div>
+<script>(function(d, s, id) {var js, fjs = d.getElementsByTagName(s)[0];if (d.getElementById(id)) return;js = d.createElement(s); js.id = id;js.src = 'https://connect.facebook.net/en_US/sdk/xfbml.customerchat.js#xfbml=1&version=v2.12&autoLogAppEvents=1';fjs.parentNode.insertBefore(js, fjs);}(document, 'script', 'facebook-jssdk'));</script>
+<!-- Your customer chat code -->
+<div class="fb-customerchat" attribution="setup_tool" page_id="2069663356654931" theme_color="#eb1c24"></div>
+
+	<header class="sticky-top fa-nav-bg">
+		<img src="assets/asset1.png" class="img img-fluid" style="position: absolute; top:0; z-index: -1;">
+		<div class="container-fluid row px-0 mx-0 magic">
+			<div class="col-md-3 col-sm-hidden col-xs-hidden"></div>
+			<div class="col-md-6" align="center">
+				<img src="assets/fa-header.png" class="img img-fluid" width="80%" height="auto">
+			</div>
+			<div class="col-md-3 row align-content-end m-0 mobile-none gothic">
+				<div class="row mx-0 w-100">
+					<div class="col-md-12 col-sm-12 col-xs-12" align="end">
+						<span>
+							<span id="loginPlaceholder">
+								<button class="btn btn-link btn-lg text-light" data-toggle="modal" data-target="#loginModal" id="loginBtn"><i class="fas fa-user"></i> Login</button>
+							</span>
+							<a href="shop.html" class="btn btn-link btn-lg nobreak text-light" ><i class="fas fa-shopping-cart"></i> (<span id="cartsizeD">0</span>)</a>
+						</span>
+					</div>
+				</div>
+				<div class="row mx-0 w-100">
+					<div class="col-md-12 col-sm-12 col-xs-12">
+						<div class="input-group mb-3 fa-red">
+							<input type="text" class="form-control fa-red-br rounded-0 transparent-bg gothic" placeholder="Search FoodAsia" aria-label="Search FoodAsia" aria-describedby="basic-addon2">
+							<div class="input-group-append">
+								<button class="btn fa-red-bg text-light rounded-0" type="button"><i class="fas fa-search"></i></button>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<nav class="navbar navbar-expand-lg navbar-dark fill cl-effect-20" id="cl-effect-20">
+			<span class="navbar-brand mobile-block py-0 w-75">
+				<div class="input-group fa-red">
+					<input type="text" class="form-control fa-red-br rounded-0 gothic transparent-bg" placeholder="Search FoodAsia" aria-label="Search FoodAsia" aria-describedby="basic-addon2">
+					<div class="input-group-append">
+						<button class="btn fa-red-bg text-light" type="button"><i class="fas fa-search"></i></button>
+					</div>
+				</div>
+			</span>
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExample05" aria-controls="navbarsExample05" aria-expanded="false" aria-label="Toggle navigation">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+
+
+
+			<div class="collapse navbar-collapse" id="navbarsExample05">
+				<ul class="navbar-nav nav-fill w-100">
+					<li class="nav-item">
+						<a class="nav-link active" href="index.html"><span data-hover="HOME">HOME<span class="sr-only">(current)</span></span></a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="shop.html"><span data-hover="SHOP">E-STORE</span></a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="about-us.html"><span data-hover="ABOUT US">ABOUT US</span></a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="our-brands.html"><span data-hover="OUT BRANDS">OUR BRANDS</span></a>
+					</li>
+					<!-- =======Franchise Dropdown --> 
+					<li class="nav-item">
+						<div class="dropdown" style="background-color: #383838; "> 
+							<a class="nav-link dropdown-toggle" href="franchise-test.html" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">	FRANCHISE
+								&nbsp;<i class="fa fa-angle-down fa-xs" style="font-weight: 600;"></i>
+							</a>
+							<div class="dropdown-menu" aria-labelledby="dropdownMenuButton" >
+								
+								<a class="nav-sub-link dropdown-item" href="local.html">Local</a>
+								<a class="nav-sub-link dropdown-item" href="international.html">International</a>  
+							</div>
+						</div>
+					</li>
+					<!-- ======= -->
+					<li class="nav-item">
+						<a class="nav-link" href="news.html"><span data-hover="NEWS">NEWS</span></a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="careers.html"><span data-hover="CAREERS">CAREERS</span></a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="contact-us.html"><span data-hover="CONTACT US">CONTACT US</span></a>
+					</li>
+					<li class="nav-item mobile-block gothic">
+						<span id="loginPlaceholder2"><a href="#" class="fa-red" data-toggle="modal" data-target="#loginModal"><i class="fas fa-user"></i> Login</a></span>
+					</li>
+					<li class="nav-item mobile-block gothic">
+						<a href="#" class="fa-red"><i class="fas fa-shopping-cart"></i> (<span id="cartsize">0</span>)</a>
+					</li>
+				</ul>
+			</div>
+		</nav>
+	</header>
+	
+	<div class="container-fluid mx-auto" style="margin-bottom: 70px;" align="center">
+		<div class="text-center mx-auto my-3">
+			<span class="fa-red hey">Hey there!</span><br>
+			<span class="text-light bigtext-3">Welcome to FoodAsia Group</span>
+		</div>
+		<div class="row mx-auto logo-container pt-3 d-flex justify-content-center">
+			<a href="https://www.facebook.com/Bibingkinitan-Mini-Bibingka-53487536456/?ref=br_rs" class="custom-link"  target="_blank">
+				<img src="assets/logo-bb.png"  class="img img-responsive logo logo-sm mx-3">
+			</a>
+			<a href="https://www.facebook.com/lavacheesetarts/"  class="custom-link" target="_blank">
+				<img src="assets/logo-lv.png" class="img img-responsive logo logo-sm mx-3">
+			</a>
+			<a href="https://www.facebook.com/PAPAS-Fresh-Potato-Chips-209417349588036/" class="custom-link" target="_blank">
+				<img src="assets/logo-papas.png" class="img img-responsive logo logo-sm mx-3">
+			</a>
+			<a href="https://www.facebook.com/Wuffwich/" class="custom-link" target="_blank">
+				<img src="assets/logo-ww.png" class="img img-responsive logo logo-sm mx-3">
+			</a>
+			<a href="our-brands.html" class="custom-link" target="_blank">
+				<img src="assets/logo-bbq.png" class="img img-responsive logo logo-sm mx-3">
+			</a>
+			<a href="our-brands.html" class="custom-link" target="_blank">
+				<img src="assets/logo-magnum.png" class="img img-responsive logo logo-sm mx-3 magnum" width="80%" height="auto">
+			</a>
+		</div>
+	</div>
+
+	<!-- Modal -->
+	<div class="modal fade" id="loginModal" tabindex="-1" role="dialog" aria-labelledby="loginLabel" aria-hidden="true">
+		<div class="modal-dialog modal-dialog-centered" role="document">
+			<div class="modal-content fa-modal-br">
+				<div class="modal-header border-bottom-0">
+					<!-- <h5 class="modal-title" id="exampleModalLabel">Modal title</h5> -->
+					<button type="button" class="close fa-red" data-dismiss="modal" aria-label="Close">
+						<span aria-hidden="true">&times;</span>
+					</button>
+				</div>
+				<div class="modal-body px-5" align="center" style="margin-bottom: 40px">
+					<p class="h1 fa-red" style="font-weight: 600;">HEY THERE PAL</p>
+					<p class="gothic">Let's get started.</p>
+					<form>
+						<div class="form-group">
+							<div class="pt-1 mb-3" id="userDiv">
+								<input class="form-control rounded-0 gothic" type="text" id="username" name="username" placeholder="Customer Code">
+								<small class="text-danger" id="userError"></small>	
+							</div>
+							<div class="input-group mb-3">
+							  	<input type="password" class="form-control rounded-0 border-right-0 gothic" id="password" name="pass" placeholder="Password">
+							  		<div class="input-group-append">
+							    		<button class="btn btn-link fa-red rounded-0 border-left-0 border-default" type="button">Forgot?</button>
+							  		</div>
+							</div>
+						</div>
+					</form>
+					<button class="btn btn-lg btn-block rounded-0 fa-red-bg text-light" id="signin">LOGIN</button>
+					<span class="gothic">Don't have an account? <a href="#" class="fa-red">Signup here.</a></span>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+	<img src="assets/fa-bg.png" class="img img-fluid" style="max-height: 80%; position: absolute; bottom:0; right: 0; z-index: -1;">
+	<footer class="footer">
+		<div class="container-fluid mx-auto" align="center">
+			<span class="fa-red">&copy; FoodAsia Corporation</span>
+		</div>
+	</footer>
+
+
+
+<script type="text/javascript" src="dist/js/jquery-3.3.1.min.js"></script>
+<script type="text/javascript" src="dist/js/popper.min.js"></script>
+<script type="text/javascript" src="dist/js/bootstrap.min.js"></script>
+<script type="text/javascript" src="dist/js/functions.js"></script>
+<script type="text/javascript" src="dist/js/fa.js"></script>
+<script type="text/javascript" src="dist/js/pace.js"></script>
+<script type="text/javascript" src="dist/js/bootbox.min.js"></script>
+<script type="text/javascript" src="dist/js/bootstrap-notify.js"></script>
+<!-- MAILCHIMP -->
+<script type="text/javascript" src="//downloads.mailchimp.com/js/signup-forms/popup/embed.js" data-dojo-config="usePlainJson: true, isDebug: false"></script>
+<script type="text/javascript">require(["mojo/signup-forms/Loader"], function(L) { L.start({"baseUrl":"mc.us18.list-manage.com","uuid":"6c896ed99bddafc94e0727ca6","lid":"8452befa4a"}) })</script>
+<!-- END OF MAILCHIMP -->
+</body>
+</html>
