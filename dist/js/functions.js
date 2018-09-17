@@ -64,8 +64,8 @@ function ajaxWithHeader(url,request,token,callback){
 }
  
 // var api ="http://localhost:8000/api/";
-var api ="http://localhost:8000/api/";
-var url ="http://localhost:8080/apps/foodasia-web/"; 
+var api ="http://97.74.228.64:8000/api/";
+var url ="http://foodasia-group.com/"; 
 
 // Cookies
 function getCookie(name){
